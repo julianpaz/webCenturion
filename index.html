@@ -57,6 +57,13 @@
 		gtag('config', 'G-XYRRGFQ1F6');
 		</script>
 
+		<!-- Lightbox2 CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+		<!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
 
 		
     </head>
@@ -142,21 +149,10 @@
 								<!-- Main Menu -->
 								<div class="main-menu" style="padding-top: 20px;">
 									<nav class="navigation">
-										<ul class="nav menu">
-											<li><a href="index.html">Inicio</a></li>
-											<li><a href="#">Doctos </a></li>
-											<li><a href="#">Services </a></li>
-											<li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="404.html">404 Error</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
-												<ul class="dropdown">
-													<li><a href="blog-single.html">Blog Details</a></li>
-												</ul>
-											</li>
-											<li><a href="contact.html">Contact Us</a></li>
+										<ul class="nav menu" style="margin-left: 200px;">
+											<li><a href="index.html">Inicio</a></li>		
+											<li><a href="#services">Servicios </a></li>
+											<li><a href="#contacto">Cotactanos</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -302,7 +298,7 @@
 		<!--/End Start schedule Area -->
 
 		<!-- Start Feautes -->
-		<section class="Feautes section">
+		<section class="Feautes section"  id="services">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -572,81 +568,66 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-12 col-12">
-						<div class="owl-carousel portfolio-slider">
-							<div class="single-pf">
+						<div class="owl-carousel portfolio-slider">							
+							
+							<a href="img/Judiciales.png" data-lightbox="seguros">
 								<img src="img/Judiciales.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
+							</a>						
+
+							<a href="img/Mascotas.png" data-lightbox="seguros">
 								<img src="img/Mascotas.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
+							</a>		
+							
+							<a href="img/Todo riesgo construccion.png" data-lightbox="seguros">
 								<img src="img/Todo riesgo construccion.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/CUMPLIMIENTO.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
+							</a>	
+
+							<a href="img/CUMPLIMIENTO.png" data-lightbox="seguros">
+								<img src="img/CUMPLIMIENTO.png" alt="#">								
+							</a>	
+
+							<a href="img/Motos.png" data-lightbox="seguros">
 								<img src="img/Motos.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Carros.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Seguro.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Transporte mercancia.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Seguro Hogar.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Flyer protege a tu familia compañia de seguros azul .png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Póliza de arrendamiento.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/RC Médica.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Seguro equipos electronicos.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-							<div class="single-pf">
-								<img src="img/Seguros responsabilidad civil profesional para clínicas, hospitales y centros médicos.png" alt="#">
-								<!-- <a href="portfolio-details.html" class="btn">View Details</a> -->
-							</div>
-						</div>
-						<script>
-							$(document).ready(function(){
-							  $('.portfolio-slider').owlCarousel({
-								loop: true,
-								margin: 10,
-								autoplay: true,         // 🔥 Hace que se mueva solo
-								autoplayTimeout: 2000,  // ⏳ Tiempo entre cambios (en milisegundos)
-								autoplaySpeed: 500,    // 🚀 Velocidad de la transición (en milisegundos)
-								autoplayHoverPause: true, // 🛑 Se pausa si el mouse se pone encima
-								responsive:{
-								  0:{ items:1 },
-								  600:{ items:2 },
-								  1000:{ items:3 }
-								}
-							  });
-							});
-						  </script>
+							</a>	
+
+							<a href="img/Carros.png" data-lightbox="seguros">
+								<img src="img/Carros.png" alt="#">								
+							</a>	
+
+							<a href="img/Seguro.png" data-lightbox="seguros">
+								<img src="img/Seguro.png" alt="#">								
+							</a>	
+
+							<a href="img/Transporte mercancia.png" data-lightbox="seguros">
+								<img src="img/Transporte mercancia.png" alt="#">								
+							</a>	
+
+							<a href="img/Seguro Hogar.png" data-lightbox="seguros">
+								<img src="img/Seguro Hogar.png" alt="#">								
+							</a>	
+
+							<a href="img/Flyer protege a tu familia compañia de seguros azul .png" data-lightbox="seguros">
+								<img src="img/Flyer protege a tu familia compañia de seguros azul .png" alt="#">								
+							</a>	
+
+							<a href="img/Póliza de arrendamiento.png" data-lightbox="seguros">
+								<img src="img/Póliza de arrendamiento.png" alt="#">								
+							</a>
+
+							<a href="img/RC Médica.png" data-lightbox="seguros">
+								<img src="img/RC Médica.png" alt="#">								
+							</a>	
+
+							<a href="img/Seguro equipos electronicos.png" data-lightbox="seguros">
+								<img src="img/Seguro equipos electronicos.png" alt="#">								
+							</a>	
+
+							<a href="img/Seguros responsabilidad civil profesional para clínicas, hospitales y centros médicos.png" data-lightbox="seguros">
+								<img src="img/Seguros responsabilidad civil profesional para clínicas, hospitales y centros médicos.png" alt="#">								
+							</a>				
+
+
+						</div> 
 					</div>
 				</div>
 			</div>
@@ -882,7 +863,7 @@
 					</div>
 					<div class="col-lg-6 col-md-12 ">
 						<div class="appointment-image">
-							<img src="img/contact-img.png" alt="#">
+							<img src="img/atencion.png" alt="#" class="rounded">
 						</div>
 					</div>
 				</div>
@@ -981,6 +962,45 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+
+				<!-- jQuery (si no lo tienes ya) -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<!-- Lightbox2 JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+		<!-- Owl Carousel JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+		<!-- <script>
+			$(document).ready(function(){
+				$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				nav: true,
+				items: 1
+				});
+			});
+		</script> -->
+
+		<script>
+							$(document).ready(function(){
+							  $('.portfolio-slider').owlCarousel({
+								loop: true,
+								margin: 10,
+								autoplay: true,         // 🔥 Hace que se mueva solo
+								autoplayTimeout: 2000,  // ⏳ Tiempo entre cambios (en milisegundos)
+								autoplaySpeed: 500,    // 🚀 Velocidad de la transición (en milisegundos)
+								autoplayHoverPause: true, // 🛑 Se pausa si el mouse se pone encima
+								responsive:{
+								  0:{ items:1 },
+								  600:{ items:2 },
+								  1000:{ items:3 }
+								}
+							  });
+							});
+						  </script>
+
+
 
     </body>
 </html>
